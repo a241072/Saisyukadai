@@ -1,0 +1,25 @@
+public class Hero extends Character {
+
+    private String weapon;
+
+
+public Hero(String name,String weapon,int hp) {
+super(name,hp);
+this.weapon = weapon;
+
+}
+
+    @Override
+    public void attack(Creature target) {
+    System.out.println(getName() + "は"+ getWeapon()+"で攻撃"+target.getName()+"に10ダメージ");
+    target.setHp(target.getHp()-10);
+    }
+
+    public String getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(String weapon) {
+        this.weapon = weapon;
+    }
+}
