@@ -9,7 +9,6 @@ public abstract class Monster implements Creature {
         this.hp = hp;
         this.suffix = suffix;
     }
-
     public final boolean isAlive(){
         if(getHp() > 0){
             return true;

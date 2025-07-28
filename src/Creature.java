@@ -1,4 +1,5 @@
 public interface Creature {
+
      boolean isAlive();
      void showStats();
      void attack(Creature target);

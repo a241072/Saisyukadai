@@ -38,7 +38,6 @@ public class GameMaster {
         }
 
 
-
         SuperHero superHero = new SuperHero(hero);
         char_list.set(0, superHero);
         for(Monster monster : char_list1) {

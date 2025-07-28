@@ -2,7 +2,6 @@ public class Hero extends Character {
 
     private String weapon;
 
-
 public Hero(String name,String weapon,int hp) {
 super(name,hp);
 this.weapon = weapon;

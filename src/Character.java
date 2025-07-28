@@ -1,5 +1,6 @@
 public abstract class Character implements Creature{
 
+
     private  int hp;
     private  String name;
 
